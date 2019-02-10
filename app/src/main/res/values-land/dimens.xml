@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="weatherDetailHorizontalPadding">16dp</dimen>
+    <dimen name="weatherDetailVerticalPadding">44dp</dimen>
+</resources>

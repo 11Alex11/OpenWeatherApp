@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <string name="refresh_button">Rafraîchir</string>
+    <string name="error_message">Impossible d\'obtenir de la météo, veuillez réessayer.</string>
+
+
+    <!-- - - - - - - -->
+    <!-- Notifications -->
+    <!-- - - - - - - -->
+
+    <string name="main_notification_channel_name">Notifications Primaires</string>
+    <string name="notification_weather_sync_title">Synchroniser la météo</string>
+    <string name="notification_weather_sync_body">Météo a été mis à jour</string>
+
+    <!-- - - - - - - -->
+    <!-- Preferences -->
+    <!-- - - - - - - -->
+
+    <string name="action_share">Partager</string>
+    <string name="action_settings">Réglages</string>
+    <string name="action_map">Carte</string>
+
+
+    <string name="pref_apikey_label" >Clé api de OpenWeatherMap</string>
+
+    <string name="pref_location_label" >Emplacement</string>
+
+    <string name="pref_notification_label" >Notifications</string>
+    <string name="pref_notification_summary_on" >Activée</string>
+    <string name="pref_notification_summary_off" >Désactivé</string>
+
+    <string name="pref_update_wifi_label" >Mise à jour météo en WiFi</string>
+    <string name="pref_update_wifi_summary_on" >Wifi seulement</string>
+    <string name="pref_update_wifi_summary_off" >Tout réseau
+</string>
+
+
+    <string name="pref_unit_label" >Unités</string>
+    <string name="pref_unit_celcius_label" >Celcius</string>
+    <string name="pref_unit_fahrenheit_label" >Fahrenheit</string>
+
+    <string name="pref_language_label">Langue</string>
+    <string name="pref_language_english_label">Anglais</string>
+    <string name="pref_language_french_label">Français</string>
+
+
+    <!-- - - - - - - -->
+    <!-- Strings -->
+    <!-- - - - - - - -->
+
+    <string name="today">Aujourd\'hui</string>
+    <string name="tomorrow">Demain</string>
+    <string name="humidity">Humidité</string>
+    <string name="wind">Vent</string>
+    <string name="pressure">Pression</string>
+
+
+    <!-- - - - - - - - - - - - - -->
+    <!-- Accessibility           -->
+    <string name="a11y_forecast">Prévoir: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_forecast_icon">Icône de prévision: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_high_temp">Haute: <xliff:g id="high">%1$s</xliff:g></string>
+    <string name="a11y_low_temp">Faible: <xliff:g id="low">%1$s</xliff:g></string>
+    <string name="a11y_humidity">Humidité: <xliff:g id="humidity">%1$s</xliff:g></string>
+    <string name="a11y_pressure">Pression Barométrique: <xliff:g id="pressure">%1$s</xliff:g></string>
+    <string name="a11y_wind">Vitesse et direction du vent: <xliff:g id="wind">%1$s</xliff:g></string>
+
+    <string name="format_notification">
+        <xliff:g id="condition">%1$s</xliff:g> -
+        Haute: <xliff:g id="high">%2$s</xliff:g>
+        Faible: <xliff:g id="low">%3$s</xliff:g>
+    </string>
+
+
+    <!-- Weather Conditions (From OpenWeatherMap) -->
+    <string name="condition_2xx">Orage</string>
+    <string name="condition_3xx">Bruine</string>
+    <string name="condition_500">Pluie Légère</string>
+    <string name="condition_501">Pluie Modérée</string>
+    <string name="condition_502">Forte Pluie</string>
+    <string name="condition_503">Intense Rain</string>
+    <string name="condition_504">Pluie Intense</string>
+    <string name="condition_511">Pluie Verglaçante</string>
+    <string name="condition_520">Douche Légère</string>
+    <string name="condition_521">Douche</string>
+    <string name="condition_522">Douche Lourde</string>
+    <string name="condition_531">Douche en Lambeaux</string>
+    <string name="condition_600">Neige Légère</string>
+    <string name="condition_601">Neige</string>
+    <string name="condition_602">Beaucoup de Neige</string>
+    <string name="condition_611">Neige Fondue</string>
+    <string name="condition_612">Douchette</string>
+    <string name="condition_615">Pluie et Neige</string> <!-- light rain and snow -->
+    <string name="condition_616">Pluie et Neige</string>
+    <string name="condition_620">Douche Neige</string> <!-- light shower snow -->
+    <string name="condition_621">Douche Neige</string>
+    <string name="condition_622">Douche Neige</string> <!-- heavy shower snow -->
+    <string name="condition_701">Brouillard</string>
+    <string name="condition_711">Fumée</string>
+    <string name="condition_721">Brume</string>
+    <string name="condition_731">Sable, Poussière</string>
+    <string name="condition_741">Brouillard</string>
+    <string name="condition_751">Sable</string>
+    <string name="condition_761">Poussière</string>
+    <string name="condition_762">Cendre Volcanique</string>
+    <string name="condition_771">Grains</string>
+    <string name="condition_781">Tornade</string>
+    <string name="condition_800">Clair</string>
+    <string name="condition_801">Généralement Dégagé</string>
+    <string name="condition_802">Nuages ​​Dispersés</string>
+    <string name="condition_803">Nuages ​​Brisés</string>
+    <string name="condition_804">Nuages ​​Nuageux</string>
+    <string name="condition_900">Tornade</string>
+    <string name="condition_901">Tempête Tropicale</string>
+    <string name="condition_902">Ouragan</string>
+    <string name="condition_903">Froid</string>
+    <string name="condition_904">Chaud</string>
+    <string name="condition_905">Venteux</string>
+    <string name="condition_906">Saluer</string>
+    <string name="condition_951">Calme</string>
+    <string name="condition_952">Brise Légère</string>
+    <string name="condition_953">Petite Brise</string>
+    <string name="condition_954">Brise</string> <!-- moderate breeze -->
+    <string name="condition_955">Brise Fraîche</string>
+    <string name="condition_956">Forte Brise</string>
+    <string name="condition_957">Vent Fort</string>
+    <string name="condition_958">Grand Vent</string>
+    <string name="condition_959">Vent Sévère</string>
+    <string name="condition_960">Orage</string>
+    <string name="condition_961">Tempête Violente</string>
+    <string name="condition_962">Ouragan</string>
+
+    <string name="condition_unknown">Inconnu (<xliff:g id="conditionId">%1$d</xliff:g>)</string>
+
+</resources>

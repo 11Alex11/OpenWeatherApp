@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="weatherDetailHorizontalPadding">32dp</dimen>
+    <dimen name="weatherDetailVerticalPadding">16dp</dimen>
+    <dimen name="todayIcon">96dp</dimen>
+    <dimen name="weatherIcon">40dp</dimen>
+    <dimen name="weatherTextSize">28dp</dimen>
+    <dimen name="weatherTempSpace">4dp</dimen>
+    <dimen name="todayVerticalPadding">16dp</dimen>
+    <dimen name="weatherIconMarginRight">24dp</dimen>
+    <dimen name="weatherIconMarginEnd">@dimen/weatherIconMarginRight</dimen>
+    <dimen name="weatherHorizontalPadding">16dp</dimen>
+    <dimen name="loadingSize">42dp</dimen>
+    <dimen name="weatherHighTempMargin">12dp</dimen>
+    <dimen name="weatherVerticalPadding">12dp</dimen>
+    <dimen name="weatherLowTextViewSize">48dp</dimen>
+    <dimen name="weatherDateMarginLeft">16dp</dimen>
+    <dimen name="weatherDateMarginstart">@dimen/weatherDateMarginLeft</dimen>
+
+</resources>

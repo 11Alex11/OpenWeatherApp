@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/extra_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/weatherVerticalPadding"
+        android:paddingEnd="@dimen/weatherHorizontalPadding"
+        android:paddingLeft="@dimen/weatherHorizontalPadding"
+        android:paddingRight="@dimen/weatherHorizontalPadding"
+        android:paddingStart="@dimen/weatherHorizontalPadding"
+        android:paddingTop="@dimen/weatherVerticalPadding"
+        android:background="@color/colorPaneBackground">
+
+
+        <TextView
+            android:id="@+id/tv_humidity_label"
+
+            style="@style/ExtraWeatherLabel"
+
+            android:text="@string/humidity"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_humidity_value"
+            style="@style/ExtraWeatherValue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="40%" />
+
+        <TextView
+            android:id="@+id/tv_pressure_value"
+
+            style="@style/ExtraWeatherValue"
+
+
+
+            app:layout_constraintBottom_toTopOf="@+id/tv_humidity_value"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="923 hPa" />
+
+        <TextView
+            android:id="@+id/tv_wind_value"
+            style="@style/ExtraWeatherValue"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_humidity_value"
+            tools:text="3 km/h SW" />
+
+        <TextView
+            android:id="@+id/tv_wind"
+
+            style="@style/ExtraWeatherLabel"
+            android:text="@string/wind"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_humidity_label" />
+
+        <TextView
+            android:id="@+id/tv_pressure"
+
+            style="@style/ExtraWeatherLabel"
+
+
+            android:text="@string/pressure"
+
+            app:layout_constraintBottom_toTopOf="@+id/tv_humidity_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".5" />
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

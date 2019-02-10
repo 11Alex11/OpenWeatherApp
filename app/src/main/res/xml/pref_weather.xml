@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="@string/pref_apikey_key"
+        android:title="@string/pref_apikey_label"
+        android:defaultValue="@string/pref_apikey_default"
+        android:singleLine="true"/>
+
+    <ListPreference
+        android:key="@string/pref_language_key"
+        android:entries="@array/pref_language_labels"
+        android:entryValues="@array/pref_language_values"
+        android:defaultValue="@string/pref_language_default"
+        android:title="@string/pref_language_label" />
+
+    <ListPreference
+        android:key="@string/pref_unit_key"
+        android:entries="@array/pref_unit_entry_labels"
+        android:entryValues="@array/pref_unit_entry_values"
+        android:defaultValue="@string/pref_unit_default"
+        android:title="@string/pref_unit_label" />
+
+    <EditTextPreference
+        android:title="@string/pref_location_label"
+        android:key="@string/pref_location_key"
+        android:defaultValue="@string/pref_location_default"
+        android:singleLine="true"></EditTextPreference>
+    <CheckBoxPreference
+        android:title="@string/pref_update_wifi_label"
+        android:key="@string/pref_update_wifi_key"
+        android:summaryOn="@string/pref_update_wifi_summary_on"
+        android:summaryOff="@string/pref_update_wifi_summary_off"
+        android:defaultValue="@bool/pref_update_wifi_default"/>
+
+    <CheckBoxPreference
+        android:title="@string/pref_notification_label"
+        android:key="@string/pref_notification_key"
+        android:summaryOn="@string/pref_notification_summary_on"
+        android:summaryOff="@string/pref_notification_summary_off"
+        android:defaultValue="@bool/pref_notification_default"/>
+
+</PreferenceScreen>

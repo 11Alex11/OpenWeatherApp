@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_unit_entry_labels">
+        <item>@string/pref_unit_celcius_label</item>
+        <item>@string/pref_unit_fahrenheit_label</item>
+    </array>
+
+    <array name="pref_unit_entry_values">
+        <item>@string/pref_unit_celcius_key</item>
+        <item>@string/pref_unit_fahrenheit_key</item>
+    </array>
+
+    <array name = "pref_language_labels">
+        <item>@string/pref_language_english_label</item>
+        <item>@string/pref_language_french_label</item>
+    </array>
+
+    <array name = "pref_language_values">
+        <item>@string/pref_language_english_key</item>
+        <item>@string/pref_language_french_key</item>
+    </array>
+</resources>
